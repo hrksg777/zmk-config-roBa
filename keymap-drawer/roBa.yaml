@@ -8,60 +8,141 @@ layers:
   - T
   - Y
   - U
-  - {t: I, h: SCROLL}
+  - I
   - O
   - P
-  - A
+  - {t: A, h: RCTRL}
   - S
   - D
   - F
   - G
-  - Sft+Gui+S
-  - '-'
+  - '&mkp MB3'
+  - DELETE
   - H
   - J
-  - K
-  - L
-  - ''''
-  - {t: Z, h: LEFT SHIFT}
+  - {t: K, h: LCTRL}
+  - {t: L, h: '5'}
+  - {t: '-', h: leyer_3}
+  - Z
   - X
   - C
   - V
   - B
-  - ':'
-  - ;
+  - '"'
+  - {t: '''', h: '4'}
   - N
   - M
-  - ','
-  - .
-  - /
-  - LCTRL
-  - LEFT WIN
-  - LEFT ALT
-  - {t: '&to_layer_0 INT_HENKAN', h: '6'}
-  - {t: SPACE, h: NUM}
-  - {t: '&to_layer_0 INT_MUHENKAN', h: ARROW}
+  - '&mkp MB1'
+  - '&mkp MB2'
+  - {t: /, h: '1'}
+  - {t: ',', h: Ctl+LEFT COMMAND}
+  - {t: ESC, h: LEFT ALT}
+  - {t: LANG2, h: LEFT SHIFT}
+  - {t: LANG1, h: LEFT COMMAND}
+  - {t: SPACE, h: '1'}
+  - {t: TAB, h: leyer_2}
   - BACKSPACE
-  - {t: ENTER, h: FUNCTION}
-  - DEL
-  FUNCTION:
+  - {t: ENTER, h: leyer_2}
+  - {t: ., h: Sft+LEFT COMMAND}
+  '1':
+  - {t: ▽, type: trans}
+  - '7'
+  - '8'
+  - '9'
+  - {t: ▽, type: trans}
+  - '['
+  - ']'
+  - \
+  - +
+  - '`'
+  - {t: ▽, type: trans}
+  - '4'
+  - '5'
+  - '6'
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - ''''
+  - LEFT ARROW
+  - UP ARROW
+  - RIGHT ARROW
+  - ;
+  - {t: ▽, type: trans}
+  - '1'
+  - '2'
+  - '3'
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - '"'
+  - {t: ▽, type: trans}
+  - DOWN ARROW
+  - {t: ▽, type: trans}
+  - {type: held}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - '0'
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
-  - F1
-  - F2
-  - F3
-  - F4
-  - F5
+  - {t: ▽, type: trans}
+  leyer_2:
+  - {t: ▽, type: trans}
+  - '&'
+  - '*'
+  - (
+  - )
+  - '{'
+  - '}'
+  - '|'
+  - '='
+  - '~'
+  - {t: ▽, type: trans}
+  - $
+  - '%'
+  - ^
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - Ctl+LEFT ARROW
+  - Ctl+UP ARROW
+  - Ctl+RIGHT ARROW
+  - ':'
+  - {t: ▽, type: trans}
+  - '!'
+  - '@'
+  - '#'
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - Gui+[
+  - Ctl+DOWN ARROW
+  - Gui+]
+  - '?'
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
+  - {type: held}
   - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  leyer_3:
+  - F11
+  - F12
   - F13
+  - F14
+  - F15
+  - F16
+  - F17
+  - F18
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
   - F6
   - F7
   - F8
@@ -69,85 +150,21 @@ layers:
   - F10
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - F11
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {type: held}
-  - F12
-  NUM:
-  - '-'
-  - KP 7
-  - KP 8
-  - KP 9
-  - +
-  - ^
-  - '&'
-  - '~'
-  - (
-  - )
-  - /
-  - KP 4
-  - KP 5
-  - KP 6
-  - '*'
-  - Ctl+Alt+KP 0
-  - _
-  - '!'
-  - '@'
-  - '#'
-  - $
-  - '%'
-  - {t: KP 0, h: LEFT SHIFT}
-  - KP 1
-  - KP 2
-  - KP 3
-  - .
-  - '='
-  - {t: ▽, type: trans}
-  - '['
-  - ']'
-  - '{'
-  - '}'
-  - \
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {type: held}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - '|'
-  ARROW:
-  - ESCAPE
-  - Ctl+Sft+TAB
-  - UP ARROW
-  - Ctl+TAB
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
+  - Alt+Gui+H
   - HOME
-  - LEFT ARROW
-  - DOWN ARROW
-  - RIGHT ARROW
+  - PAGE UP
   - END
+  - {type: held}
+  - F1
+  - F2
+  - F3
+  - F4
+  - F5
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - Ctl+Sft+Gui+4
+  - Alt+Gui+L
+  - PAGE DOWN
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
@@ -155,10 +172,26 @@ layers:
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
-  - LEFT SHIFT
-  - Gui+Sft+LEFT ARROW
   - {t: ▽, type: trans}
-  - Gui+Sft+RIGHT ARROW
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  '4':
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: BT, h: '0'}
+  - {t: BT, h: '1'}
+  - {t: BT, h: '2'}
+  - {t: BT, h: '3'}
+  - {t: BT, h: '4'}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
@@ -173,14 +206,10 @@ layers:
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {type: held}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  MOUSE:
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
+  - BT CLR
+  - BT CLR ALL
+  - BT PRV
+  - BT NXT
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
@@ -191,13 +220,7 @@ layers:
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - '&mkp MB1'
-  - '&mkp MB3'
-  - '&mkp MB2'
+  '5':
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
@@ -211,16 +234,6 @@ layers:
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  SCROLL:
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
@@ -229,19 +242,6 @@ layers:
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {type: held}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
@@ -270,11 +270,6 @@ layers:
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
-  - {t: BT, h: '0'}
-  - {t: BT, h: '1'}
-  - {t: BT, h: '2'}
-  - {t: BT, h: '3'}
-  - {t: BT, h: '4'}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
@@ -288,34 +283,57 @@ layers:
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
-  - '1'
-  - '2'
-  - '3'
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - '&bootloader'
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
-  - BT CLR
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {type: held}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
-  - BT CLR ALL
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
 combos:
-- p: [11, 12]
-  k: TAB
-- p: [12, 13]
-  k: Sft+TAB
-- p: [11, 10]
-  k: '&to_layer_0 INT_MUHENKAN'
-- p: [20, 21]
-  k: '"'
-- p: [24, 25]
+- p: [14, 26]
+  k: '`'
+- p: [13, 25]
   k: '='
+- p: [5, 17]
+  k: '|'
+- p: [17, 29]
+  k: '"'
+- p: [5, 17]
+  k: ''''
+- p: [4, 14]
+  k: '~'
+- p: [18, 30]
+  k: ':'
+- p: [3, 13]
+  k: _
+- p: [24, 12]
+  k: '>'
+- p: [2, 12]
+  k: <
+- p: [11, 23]
+  k: '?'
+- p: [1, 11]
+  k: '!'
+- p: [13, 11]
+  k: $
+- p: [23, 25]
+  k: '#'

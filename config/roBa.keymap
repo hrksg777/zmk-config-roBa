@@ -12,6 +12,7 @@
 
 &trackball {
     // automouse-layer = <4>;
+
     scroll-layers = <5>;
 
     // arrows {
@@ -43,7 +44,7 @@
 
         pipe {
             bindings = <&kp PIPE>;
-            key-positions = <5 17>;
+            key-positions = <6 18>;
         };
 
         double_quote {

@@ -154,6 +154,8 @@
 &trans  &kp NUMBER_1  &kp NUMBER_2  &kp NUMBER_3  &trans  &trans      &trans  &kp DOUBLE_QUOTES  &trans             &kp DOWN_ARROW  &trans           &trans
 &trans  &trans        &kp N0        &trans        &trans  &trans      &trans  &trans                                                                 &trans
             >;
+
+            sensor-bindings = <&inc_dec_kp LG(MINUS) LG(PLUS)>;
         };
 
         layer_2 {

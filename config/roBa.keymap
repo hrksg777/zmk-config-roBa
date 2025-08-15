@@ -156,7 +156,7 @@
             >;
         };
 
-        leyer_2 {
+        layer_2 {
             bindings = <
 &trans  &kp AMPERSAND    &kp ASTERISK  &kp LEFT_PARENTHESIS  &kp RIGHT_PARENTHESIS                      &kp LEFT_BRACE  &kp RIGHT_BRACE       &kp PIPE            &kp EQUAL              &kp TILDE
 &trans  &kp DOLLAR       &kp PERCENT   &kp CARET             &trans                 &trans      &trans  &trans          &kp LC(LEFT_ARROW)    &kp LC(UP_ARROW)    &kp LC(RIGHT_ARROW)    &kp COLON
@@ -165,7 +165,7 @@
             >;
         };
 
-        leyer_3 {
+        layer_3 {
             bindings = <
 &kp F11  &kp F12  &kp F13  &kp F14  &kp F15                      &kp F16  &kp F17   &kp F18        &trans   &trans
 &kp F6   &kp F7   &kp F8   &kp F9   &kp F10  &trans      &trans  &trans   &kp HOME  &kp PAGE_UP    &kp END  &trans

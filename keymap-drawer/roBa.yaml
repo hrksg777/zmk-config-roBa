@@ -22,7 +22,7 @@ layers:
   - J
   - {t: K, h: LCTRL}
   - {t: L, h: '5'}
-  - {t: '-', h: leyer_3}
+  - {t: '-', h: '3'}
   - Z
   - X
   - C
@@ -40,9 +40,9 @@ layers:
   - {t: LANG2, h: LEFT SHIFT}
   - {t: LANG1, h: LEFT COMMAND}
   - {t: SPACE, h: '1'}
-  - {t: TAB, h: leyer_2}
+  - {t: TAB, h: '2'}
   - BACKSPACE
-  - {t: ENTER, h: leyer_2}
+  - {t: ENTER, h: '2'}
   - {t: ., h: Sft+LEFT COMMAND}
   '1':
   - {t: ▽, type: trans}
@@ -88,7 +88,7 @@ layers:
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
-  leyer_2:
+  '2':
   - {t: ▽, type: trans}
   - '&'
   - '*'
@@ -132,7 +132,7 @@ layers:
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
-  leyer_3:
+  '3':
   - F11
   - F12
   - F13

@@ -150,7 +150,7 @@ layers:
   - F10
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
-  - Alt+Gui+H
+  - {t: ▽, type: trans}
   - HOME
   - PAGE UP
   - END
@@ -162,8 +162,8 @@ layers:
   - F5
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
-  - Ctl+Sft+Gui+4
-  - Alt+Gui+L
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
   - PAGE DOWN
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
@@ -238,7 +238,7 @@ layers:
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
+  - Alt+Gui+H
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {type: held}
@@ -250,8 +250,8 @@ layers:
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
+  - Sft+Ctl+Gui+4
+  - Alt+Gui+L
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
@@ -313,7 +313,7 @@ combos:
   k: '`'
 - p: [13, 25]
   k: '='
-- p: [5, 17]
+- p: [6, 18]
   k: '|'
 - p: [17, 29]
   k: '"'

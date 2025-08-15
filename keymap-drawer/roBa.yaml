@@ -60,7 +60,7 @@ layers:
   - '5'
   - '6'
   - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
+  - Gui+0
   - {t: ▽, type: trans}
   - ''''
   - LEFT ARROW

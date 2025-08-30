@@ -133,14 +133,14 @@ layers:
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   '3':
-  - F11
-  - F12
-  - F13
-  - F14
-  - F15
-  - F16
-  - F17
-  - F18
+  - F1
+  - F2
+  - F3
+  - F4
+  - F5
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - F6
@@ -155,11 +155,11 @@ layers:
   - PAGE UP
   - END
   - {type: held}
-  - F1
-  - F2
-  - F3
-  - F4
-  - F5
+  - F11
+  - F12
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}

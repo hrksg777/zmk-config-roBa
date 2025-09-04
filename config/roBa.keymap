@@ -137,6 +137,11 @@
             bindings = <&kp ASTERISK>;
             key-positions = <10 22>;
         };
+
+        caret {
+            bindings = <&kp CARET>;
+            key-positions = <27 26>;
+        };
     };
 
     macros {

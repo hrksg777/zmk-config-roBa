@@ -43,8 +43,8 @@
             key-positions = <13 25>;
         };
 
-        pipe {
-            bindings = <&kp PIPE>;
+        semicolon {
+            bindings = <&kp SEMICOLON>;
             key-positions = <6 18>;
         };
 
@@ -101,6 +101,41 @@
         hash {
             bindings = <&kp HASH>;
             key-positions = <23 25>;
+        };
+
+        pipe {
+            bindings = <&kp PIPE>;
+            key-positions = <7 19>;
+        };
+
+        lpar {
+            bindings = <&kp LEFT_PARENTHESIS>;
+            key-positions = <4 3>;
+        };
+
+        rpar {
+            bindings = <&kp RIGHT_PARENTHESIS>;
+            key-positions = <13 14>;
+        };
+
+        at {
+            bindings = <&kp AT_SIGN>;
+            key-positions = <26 25>;
+        };
+
+        percent {
+            bindings = <&kp PERCENT>;
+            key-positions = <1 3>;
+        };
+
+        amps {
+            bindings = <&kp AMPERSAND>;
+            key-positions = <0 10>;
+        };
+
+        asterisk {
+            bindings = <&kp ASTERISK>;
+            key-positions = <10 22>;
         };
     };
 

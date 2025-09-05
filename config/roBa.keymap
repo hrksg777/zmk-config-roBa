@@ -33,6 +33,31 @@
     combos {
         compatible = "zmk,combos";
 
+        quote {
+            bindings = <&kp SINGLE_QUOTE>;
+            key-positions = <5 17>;
+        };
+
+        double_quote {
+            bindings = <&kp DOUBLE_QUOTES>;
+            key-positions = <17 29>;
+        };
+
+        semicolon {
+            bindings = <&kp SEMICOLON>;
+            key-positions = <6 18>;
+        };
+
+        colon {
+            bindings = <&kp COLON>;
+            key-positions = <18 30>;
+        };
+
+        pipe {
+            bindings = <&kp PIPE>;
+            key-positions = <7 19>;
+        };
+
         tilde {
             bindings = <&kp TILDE>;
             key-positions = <4 14>;
@@ -41,26 +66,6 @@
         grave {
             bindings = <&kp GRAVE>;
             key-positions = <14 26>;
-        };
-
-        double_quote {
-            bindings = <&kp DOUBLE_QUOTES>;
-            key-positions = <17 29>;
-        };
-
-        quote {
-            bindings = <&kp SINGLE_QUOTE>;
-            key-positions = <5 17>;
-        };
-
-        colon {
-            bindings = <&kp COLON>;
-            key-positions = <18 30>;
-        };
-
-        semicolon {
-            bindings = <&kp SEMICOLON>;
-            key-positions = <6 18>;
         };
 
         underscore {
@@ -106,11 +111,6 @@
         hash {
             bindings = <&kp HASH>;
             key-positions = <23 25>;
-        };
-
-        pipe {
-            bindings = <&kp PIPE>;
-            key-positions = <7 19>;
         };
 
         lpar {

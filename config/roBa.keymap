@@ -33,19 +33,9 @@
     combos {
         compatible = "zmk,combos";
 
-        grave {
-            bindings = <&kp GRAVE>;
-            key-positions = <14 26>;
-        };
-
-        equal {
-            bindings = <&kp EQUAL>;
-            key-positions = <13 25>;
-        };
-
-        semicolon {
-            bindings = <&kp SEMICOLON>;
-            key-positions = <6 18>;
+        quote {
+            bindings = <&kp SINGLE_QUOTE>;
+            key-positions = <5 17>;
         };
 
         double_quote {
@@ -53,14 +43,9 @@
             key-positions = <17 29>;
         };
 
-        quote {
-            bindings = <&kp SINGLE_QUOTE>;
-            key-positions = <5 17>;
-        };
-
-        tilde {
-            bindings = <&kp TILDE>;
-            key-positions = <4 14>;
+        semicolon {
+            bindings = <&kp SEMICOLON>;
+            key-positions = <6 18>;
         };
 
         colon {
@@ -68,14 +53,29 @@
             key-positions = <18 30>;
         };
 
+        pipe {
+            bindings = <&kp PIPE>;
+            key-positions = <7 19>;
+        };
+
+        tilde {
+            bindings = <&kp TILDE>;
+            key-positions = <4 14>;
+        };
+
+        grave {
+            bindings = <&kp GRAVE>;
+            key-positions = <14 26>;
+        };
+
         underscore {
             bindings = <&kp UNDERSCORE>;
             key-positions = <3 13>;
         };
 
-        gt {
-            bindings = <&kp GREATER_THAN>;
-            key-positions = <24 12>;
+        equal {
+            bindings = <&kp EQUAL>;
+            key-positions = <13 25>;
         };
 
         lt {
@@ -83,14 +83,24 @@
             key-positions = <2 12>;
         };
 
-        question {
-            bindings = <&kp QUESTION>;
-            key-positions = <11 23>;
+        gt {
+            bindings = <&kp GREATER_THAN>;
+            key-positions = <24 12>;
         };
 
         exclamation {
             bindings = <&kp EXCLAMATION>;
             key-positions = <1 11>;
+        };
+
+        question {
+            bindings = <&kp QUESTION>;
+            key-positions = <11 23>;
+        };
+
+        percent {
+            bindings = <&kp PERCENT>;
+            key-positions = <1 3>;
         };
 
         dollar {
@@ -101,11 +111,6 @@
         hash {
             bindings = <&kp HASH>;
             key-positions = <23 25>;
-        };
-
-        pipe {
-            bindings = <&kp PIPE>;
-            key-positions = <7 19>;
         };
 
         lpar {
@@ -121,11 +126,6 @@
         at {
             bindings = <&kp AT_SIGN>;
             key-positions = <26 25>;
-        };
-
-        percent {
-            bindings = <&kp PERCENT>;
-            key-positions = <1 3>;
         };
 
         amps {

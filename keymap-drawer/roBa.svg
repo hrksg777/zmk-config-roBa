@@ -125,7 +125,7 @@ path.combo {
 /* End Tabler Icons Cleanup */
 
 rect.held.alternate { fill: #bee9e9; }
-@media (prefers-color-scheme: dark) { rect.held.alternate { fill: #478583; } }
+@media (prefers-color-scheme: dark) { rect.held.alternate { fill: #6ecfcf; } }
 </style>
 <g transform="translate(30, 0)" class="layer-default">
 <text x="0" y="28" class="label" id="default">default:</text>

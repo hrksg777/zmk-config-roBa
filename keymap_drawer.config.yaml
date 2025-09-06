@@ -1,3 +1,9 @@
+parse_config:
+  mark_alternate_layer_activators: true
+
 draw_config:
   separate_combo_diagrams: true
   combo_diagrams_scale: 4
+  svg_extra_style: |
+    rect.held.alternate { fill: #bee9e9; }
+    @media (prefers-color-scheme: dark) { rect.held.alternate { fill: #6ecfcf; } }

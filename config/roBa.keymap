@@ -209,10 +209,10 @@
 
         layer_1 {
             bindings = <
-&trans  &kp NUMBER_7  &kp NUMBER_8  &kp NUMBER_9  &trans                                &kp LEFT_BRACKET   &kp RIGHT_BRACKET  &kp BACKSLASH   &kp PLUS         &kp GRAVE
-&trans  &kp NUMBER_4  &kp NUMBER_5  &kp NUMBER_6  &trans  &kp LG(NUMBER_0)      &trans  &kp SQT            &kp LEFT_ARROW     &kp UP_ARROW    &kp RIGHT_ARROW  &kp SEMICOLON
-&trans  &kp NUMBER_1  &kp NUMBER_2  &kp NUMBER_3  &trans  &trans                &trans  &kp DOUBLE_QUOTES  &trans             &kp DOWN_ARROW  &trans           &trans
-&trans  &trans        &kp N0        &trans        &trans  &trans                &trans  &trans                                                                 &trans
+&trans  &kp NUMBER_7  &kp NUMBER_8  &kp NUMBER_9  &trans                                &trans  &trans          &trans          &trans           &trans
+&trans  &kp NUMBER_4  &kp NUMBER_5  &kp NUMBER_6  &trans  &kp LG(NUMBER_0)      &trans  &trans  &kp LEFT_ARROW  &kp UP_ARROW    &kp RIGHT_ARROW  &trans
+&trans  &kp NUMBER_1  &kp NUMBER_2  &kp NUMBER_3  &trans  &trans                &trans  &trans  &trans          &kp DOWN_ARROW  &trans           &trans
+&trans  &trans        &kp N0        &trans        &trans  &trans                &trans  &trans                                                   &trans
             >;
 
             sensor-bindings = <&inc_dec_kp LG(MINUS) LG(PLUS)>;

@@ -58,6 +58,26 @@
             key-positions = <7 19>;
         };
 
+        lbkt {
+            bindings = <&kp LEFT_BRACKET>;
+            key-positions = <5 6>;
+        };
+
+        rbkt {
+            bindings = <&kp RIGHT_BRACKET>;
+            key-positions = <6 7>;
+        };
+
+        lbrc {
+            bindings = <&kp LEFT_BRACE>;
+            key-positions = <17 18>;
+        };
+
+        rbrc {
+            bindings = <&kp RBRC>;
+            key-positions = <18 19>;
+        };
+
         tilde {
             bindings = <&kp TILDE>;
             key-positions = <4 14>;
@@ -128,6 +148,11 @@
             key-positions = <26 25>;
         };
 
+        caret {
+            bindings = <&kp CARET>;
+            key-positions = <27 26>;
+        };
+
         amps {
             bindings = <&kp AMPERSAND>;
             key-positions = <0 10>;
@@ -136,31 +161,6 @@
         asterisk {
             bindings = <&kp ASTERISK>;
             key-positions = <10 22>;
-        };
-
-        caret {
-            bindings = <&kp CARET>;
-            key-positions = <27 26>;
-        };
-
-        lbkt {
-            bindings = <&kp LEFT_BRACKET>;
-            key-positions = <5 6>;
-        };
-
-        rbkt {
-            bindings = <&kp RIGHT_BRACKET>;
-            key-positions = <6 7>;
-        };
-
-        lbrc {
-            bindings = <&kp LEFT_BRACE>;
-            key-positions = <17 18>;
-        };
-
-        rbrc {
-            bindings = <&kp RBRC>;
-            key-positions = <18 19>;
         };
     };
 

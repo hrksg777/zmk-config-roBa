@@ -11,7 +11,7 @@ on:
 
 jobs:
   draw:
-    uses: caksoylar/keymap-drawer/.github/workflows/draw-zmk.yml@f9cf9d3677368a7fb1dc505c51b8156fafa66fe2
+    uses: caksoylar/keymap-drawer/.github/workflows/draw-zmk.yml@2d0588fc7f2f1f446e876308e34e26bec1c21f3f
     permissions:
       contents: write
     with:

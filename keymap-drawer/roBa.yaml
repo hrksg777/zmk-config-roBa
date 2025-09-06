@@ -11,7 +11,7 @@ layers:
   - I
   - O
   - P
-  - {t: A, h: RCTRL}
+  - A
   - S
   - D
   - F
@@ -20,7 +20,7 @@ layers:
   - DELETE
   - H
   - J
-  - {t: K, h: LCTRL}
+  - K
   - {t: L, h: '5'}
   - {t: '-', h: '3'}
   - Z
@@ -37,10 +37,10 @@ layers:
   - {t: /, h: '1'}
   - {t: ',', h: Ctl+LEFT COMMAND}
   - {t: ESC, h: LEFT ALT}
-  - {t: LANG2, h: LEFT SHIFT}
+  - {t: LANG2, h: LCTRL}
   - {t: LANG1, h: LEFT COMMAND}
   - {t: SPACE, h: '1'}
-  - {t: TAB, h: '2'}
+  - {t: TAB, h: LEFT SHIFT}
   - BACKSPACE
   - {t: ENTER, h: '2'}
   - {t: ., h: Sft+LEFT COMMAND}
@@ -50,11 +50,11 @@ layers:
   - '8'
   - '9'
   - {t: ▽, type: trans}
-  - '['
-  - ']'
-  - \
-  - +
-  - '`'
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - '4'
   - '5'
@@ -62,11 +62,11 @@ layers:
   - {t: ▽, type: trans}
   - Gui+0
   - {t: ▽, type: trans}
-  - ''''
+  - {t: ▽, type: trans}
   - LEFT ARROW
   - UP ARROW
   - RIGHT ARROW
-  - ;
+  - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - '1'
   - '2'
@@ -74,7 +74,7 @@ layers:
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
-  - '"'
+  - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - DOWN ARROW
   - {t: ▽, type: trans}
@@ -90,19 +90,19 @@ layers:
   - {t: ▽, type: trans}
   '2':
   - {t: ▽, type: trans}
-  - '&'
-  - '*'
-  - (
-  - )
-  - '{'
-  - '}'
-  - '|'
-  - '='
-  - '~'
   - {t: ▽, type: trans}
-  - $
-  - '%'
-  - ^
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
@@ -110,11 +110,11 @@ layers:
   - Ctl+LEFT ARROW
   - Ctl+UP ARROW
   - Ctl+RIGHT ARROW
-  - ':'
   - {t: ▽, type: trans}
-  - '!'
-  - '@'
-  - '#'
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
@@ -122,15 +122,15 @@ layers:
   - Gui+[
   - Ctl+DOWN ARROW
   - Gui+]
-  - '?'
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {type: held}
-  - {t: ▽, type: trans}
-  - {type: held alternate}
   - {t: ▽, type: trans}
   '3':
   - F1
@@ -319,6 +319,14 @@ combos:
   k: ':'
 - p: [7, 19]
   k: '|'
+- p: [5, 6]
+  k: '['
+- p: [6, 7]
+  k: ']'
+- p: [17, 18]
+  k: '{'
+- p: [18, 19]
+  k: '}'
 - p: [4, 14]
   k: '~'
 - p: [14, 26]
@@ -341,15 +349,15 @@ combos:
   k: $
 - p: [23, 25]
   k: '#'
-- p: [4, 3]
+- p: [3, 2]
   k: (
-- p: [13, 14]
+- p: [3, 4]
   k: )
 - p: [26, 25]
   k: '@'
+- p: [27, 26]
+  k: ^
 - p: [0, 10]
   k: '&'
 - p: [10, 22]
   k: '*'
-- p: [27, 26]
-  k: ^

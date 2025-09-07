@@ -220,7 +220,7 @@
 
         layer_2 {
             bindings = <
-&kp F1   &kp F2   &kp F3  &kp F4  &kp F5                       &trans         &trans                &trans              &trans                 &trans
+&kp F1   &kp F2   &kp F3  &kp F4  &kp F5                       &kp HOME       &kp END               &kp PAGE_UP         &kp PAGE_DOWN          &trans
 &kp F6   &kp F7   &kp F8  &kp F9  &kp F10  &trans      &trans  &kp LA(LG(H))  &kp LC(LEFT_ARROW)    &kp LC(UP_ARROW)    &kp LC(RIGHT_ARROW)    &trans
 &kp F11  &kp F12  &trans  &trans  &trans   &trans      &trans  &kp LA(LG(L))  &kp LG(LEFT_BRACKET)  &kp LC(DOWN_ARROW)  &kp LG(RIGHT_BRACKET)  &trans
 &trans   &trans   &trans  &trans  &trans   &trans      &trans  &trans                                                                          &trans
@@ -231,10 +231,10 @@
 
         layer_3 {
             bindings = <
-&trans  &trans  &trans  &trans  &trans                      &trans  &trans                    &trans         &trans   &trans
-&trans  &trans  &trans  &trans  &trans  &trans      &trans  &trans  &kp HOME                  &kp PAGE_UP    &kp END  &trans
-&trans  &trans  &trans  &trans  &trans  &trans      &trans  &trans  &kp LS(LC(LG(NUMBER_4)))  &kp PAGE_DOWN  &trans   &trans
-&trans  &trans  &trans  &trans  &trans  &trans      &trans  &trans                                                    &trans
+&trans  &trans  &trans  &trans  &trans                      &trans  &trans  &trans  &trans                    &trans
+&trans  &trans  &trans  &trans  &trans  &trans      &trans  &trans  &trans  &trans  &kp LS(LC(LG(NUMBER_4)))  &trans
+&trans  &trans  &trans  &trans  &trans  &trans      &trans  &trans  &trans  &trans  &trans                    &trans
+&trans  &trans  &trans  &trans  &trans  &trans      &trans  &trans                                            &trans
             >;
         };
 

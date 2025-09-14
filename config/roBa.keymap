@@ -63,11 +63,6 @@
             key-positions = <19 31>;
         };
 
-        lbkt {
-            bindings = <&kp LEFT_BRACKET>;
-            key-positions = <14 15>;
-        };
-
         tilde {
             bindings = <&kp TILDE>;
             key-positions = <4 14>;
@@ -131,6 +126,11 @@
         rpar {
             bindings = <&kp RIGHT_PARENTHESIS>;
             key-positions = <5 6>;
+        };
+
+        lbkt {
+            bindings = <&kp LEFT_BRACKET>;
+            key-positions = <13 14>;
         };
 
         rbkt {

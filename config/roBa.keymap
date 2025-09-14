@@ -46,6 +46,7 @@
         semicolon {
             bindings = <&kp SEMICOLON>;
             key-positions = <6 18>;
+            timeout-ms = <30>;
         };
 
         colon {
@@ -56,6 +57,7 @@
         pipe {
             bindings = <&kp PIPE>;
             key-positions = <7 19>;
+            timeout-ms = <30>;
         };
 
         backslash {
@@ -126,6 +128,7 @@
         rpar {
             bindings = <&kp RIGHT_PARENTHESIS>;
             key-positions = <5 6>;
+            timeout-ms = <30>;
         };
 
         lbkt {

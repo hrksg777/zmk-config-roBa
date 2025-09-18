@@ -237,7 +237,7 @@
             bindings = <
 &trans  &trans  &trans  &trans  &trans                      &trans  &trans  &trans         &trans                    &trans
 &trans  &trans  &trans  &trans  &trans  &trans      &trans  &trans  &trans  &kp LA(LS(F))  &kp LS(LC(LG(NUMBER_4)))  &trans
-&trans  &trans  &trans  &trans  &trans  &trans      &trans  &trans  &trans  &trans         &trans                    &trans
+&trans  &trans  &trans  &trans  &trans  &trans      &trans  &trans  &trans  &kp LG(W)      &trans                    &trans
 &trans  &trans  &trans  &trans  &trans  &trans      &trans  &trans                                                   &trans
             >;
         };

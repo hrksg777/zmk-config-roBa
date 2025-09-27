@@ -1,5 +1,35 @@
 parse_config:
   mark_alternate_layer_activators: true
+  modifier_fn_map:
+    left_ctrl: ^
+    right_ctrl: ^
+    left_shift: ⇧
+    right_shift: ⇧
+    left_alt: ⌥
+    right_alt: ⌥
+    left_gui: ⌘
+    right_gui: ⌘
+    keycode_combiner: '{mods}{key}'
+    mod_combiner: '{mod_1}{mod_2}'
+  zmk_keycode_map:
+    LEFT_SHIFT: ⇧
+    LSHIFT: ⇧
+    BACKSPACE: ⌫
+    BSPC: ⌫
+    SPACE: ␣
+    DELETE: ⌦
+    LEFT_ALT: ⌥
+    LALT: ⌥
+    LEFT_COMMAND: ⌘
+    LEFT_CONTROL: ^
+    LCTRL: ^
+    UP_ARROW: ↑
+    DOWN_ARROW: ↓
+    LEFT_ARROW: ←
+    RIGHT_ARROW: →
+    ENTER: ↵
+    TAB: ⇥
+    LS(TAB): ⇤
 
 draw_config:
   separate_combo_diagrams: true

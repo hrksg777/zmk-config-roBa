@@ -11,6 +11,11 @@
     tapping-term-ms = <150>;
 };
 
+&lt {
+    flavor = "balanced";
+    quick-tap-ms = <150>;
+};
+
 &trackball {
     // automouse-layer = <4>;
 
@@ -160,6 +165,7 @@
         amps {
             bindings = <&kp AMPERSAND>;
             key-positions = <0 10>;
+            timeout-ms = <20>;
         };
 
         asterisk {

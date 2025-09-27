@@ -34,6 +34,7 @@ parse_config:
     ENTER: ↵
     TAB: ⇥
     LS(TAB): ⇤
+    LS(LC(TAB)): ^⇤
     # defaults
     EXCLAMATION: "!"
     EXCL: "!"
@@ -79,7 +80,7 @@ parse_config:
     APOS: "'"
     DOUBLE_QUOTES: '"'
     DQT: '"'
-    COMMA: ""
+    COMMA: ","
     LESS_THAN: "<"
     LT: "<"
     PERIOD: "."

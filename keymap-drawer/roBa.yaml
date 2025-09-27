@@ -11,13 +11,13 @@ layers:
   - I
   - O
   - P
-  - {t: A, h: LCTRL}
+  - {t: A, h: ^}
   - S
   - D
   - F
   - G
   - '&mkp MB3'
-  - DELETE
+  - ⌦
   - H
   - J
   - K
@@ -35,15 +35,15 @@ layers:
   - '&mkp MB1'
   - '&mkp MB2'
   - {t: /, h: '1'}
-  - {t: ',', h: Ctl+LEFT COMMAND}
-  - {t: ESC, h: LEFT ALT}
-  - {t: LANG2, h: LCTRL}
-  - {t: LANG1, h: LEFT COMMAND}
-  - {t: SPACE, h: '1'}
-  - {t: TAB, h: LEFT SHIFT}
-  - BACKSPACE
-  - {t: ENTER, h: '2'}
-  - {t: ., h: Sft+LEFT COMMAND}
+  - {t: ',', h: ^⌘}
+  - {t: ESC, h: ⌥}
+  - {t: LANG2, h: ^}
+  - {t: LANG1, h: ⌘}
+  - {t: ␣, h: '1'}
+  - {t: ⇥, h: ⇧}
+  - ⌫
+  - {t: ↵, h: '2'}
+  - {t: ., h: ⇧⌘}
   '1':
   - {t: ▽, type: trans}
   - '7'
@@ -60,12 +60,12 @@ layers:
   - '5'
   - '6'
   - {t: ▽, type: trans}
-  - Gui+0
+  - ⌘0
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
-  - LEFT ARROW
-  - UP ARROW
-  - RIGHT ARROW
+  - ←
+  - ↑
+  - →
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - '1'
@@ -76,7 +76,7 @@ layers:
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
-  - DOWN ARROW
+  - ↓
   - {t: ▽, type: trans}
   - {type: held}
   - {t: ▽, type: trans}
@@ -106,10 +106,10 @@ layers:
   - F10
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
-  - Alt+Gui+H
-  - Ctl+LEFT ARROW
-  - Ctl+UP ARROW
-  - Ctl+RIGHT ARROW
+  - ⌥⌘H
+  - ^←
+  - ^↑
+  - ^→
   - {t: ▽, type: trans}
   - F11
   - F12
@@ -118,17 +118,17 @@ layers:
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
-  - Alt+Gui+L
-  - Gui+[
-  - Ctl+DOWN ARROW
-  - Gui+]
+  - ⌥⌘L
+  - ⌘[
+  - ^↓
+  - ⌘]
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
-  - Sft+TAB
+  - ⇤
   - {t: ▽, type: trans}
   - {type: held}
   - {t: ▽, type: trans}
@@ -141,7 +141,7 @@ layers:
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
-  - Sft+Alt+F
+  - ⇧⌥F
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
@@ -151,9 +151,9 @@ layers:
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
-  - Sft+Ctl+TAB
-  - Ctl+TAB
-  - Sft+Ctl+Gui+4
+  - ^⇤
+  - ^⇥
+  - ⇧^⌘4
   - {type: held}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
@@ -164,7 +164,7 @@ layers:
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
-  - Gui+W
+  - ⌘W
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
@@ -316,7 +316,7 @@ combos:
 - p: [6, 18]
   k: ;
 - p: [18, 30]
-  k: ':'
+  k: :"
 - p: [7, 19]
   k: '|'
 - p: [19, 31]

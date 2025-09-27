@@ -160,6 +160,7 @@
         amps {
             bindings = <&kp AMPERSAND>;
             key-positions = <0 10>;
+            timeout-ms = <20>;
         };
 
         asterisk {

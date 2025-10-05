@@ -12,8 +12,9 @@
 };
 
 &lt {
-    flavor = "hold-preferred";
+    flavor = "balanced";
     quick-tap-ms = <150>;
+    tapping-term-ms = <150>;
 };
 
 &trackball {
@@ -184,6 +185,16 @@
     };
 
     behaviors {
+        lt_hold: lt_hold {
+            compatible = "zmk,behavior-hold-tap";
+            label = "LT_HOLD";
+            flavor = "hold-preferred";
+            quick-tap-ms = <150>;
+            tapping-term-ms = <150>;
+            bindings = <&mo>, <&kp>;
+            #binding-cells = <2>;
+        };
+
         lt_to_layer_0: lt_to_layer_0 {
             compatible = "zmk,behavior-hold-tap";
             label = "LAYER_TAP_TO_0";
@@ -211,7 +222,7 @@
 &kp Q                       &kp W             &kp E            &kp R                   &kp T                                               &kp Y        &kp U  &kp I     &kp O     &kp P
 &mt LCTRL A                 &kp S             &kp D            &kp F                   &kp G        &mkp MB3                &kp DELETE     &kp H        &kp J  &kp K     &lt 5 L   &lt 3 MINUS
 &kp Z                       &kp X             &kp C            &kp V                   &kp B        &kp AT_SIGN             &lt 4 PLUS     &kp N        &kp M  &mkp MB1  &mkp MB2  &lt 1 SLASH
-&mt LC(LEFT_COMMAND) COMMA  &mt LEFT_ALT ESC  &mt LCTRL LANG2  &mt LEFT_COMMAND LANG1  &lt 1 SPACE  &mt LEFT_SHIFT TAB      &kp BACKSPACE  &lt 2 ENTER                             &mt LS(LEFT_COMMAND) PERIOD
+&mt LC(LEFT_COMMAND) COMMA  &mt LEFT_ALT ESC  &mt LCTRL LANG2  &mt LEFT_COMMAND LANG1  &lt_hold 1 SPACE  &mt LEFT_SHIFT TAB      &kp BACKSPACE  &lt 2 ENTER                             &mt LS(LEFT_COMMAND) PERIOD
             >;
 
             sensor-bindings = <&encoder_msc_down_up>;

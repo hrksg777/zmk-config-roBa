@@ -73,7 +73,7 @@ parse_config:
     NON_US_BSLH: "|"
     SEMICOLON: ";"
     SEMI: ";"
-    COLON: :"
+    COLON: ":"
     SINGLE_QUOTE: "'"
     SQT: "'"
     APOSTROPHE: "'"

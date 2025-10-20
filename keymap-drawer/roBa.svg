@@ -124,7 +124,20 @@ path.combo {
 }
 /* End Tabler Icons Cleanup */
 
+@media (prefers-color-scheme: dark) {
+svg.keymap { fill: #d1d6db; }
+rect.key { fill: #3f4750; }
+rect.key, rect.combo { stroke: #60666c; }
+rect.combo, rect.combo-separate { fill: #1f3d7a; }
+rect.held, rect.combo.held { fill: #854747; }
+text.label, text.footer { stroke: black; }
+text.trans { fill: #7e8184; }
+path.combo { stroke: #7f7f7f; }
+
+}
 rect.held.alternate { fill: #bee9e9; }
+@media (prefers-color-scheme: dark) { rect.held.alternate { fill: #6a9b9b; } }
+svg.keymap { font-family: "Noto Sans Symbols2","Segoe UI Symbol"; }
 </style>
 <g transform="translate(30, 0)" class="layer-default">
 <text x="0" y="28" class="label" id="default">default:</text>
@@ -992,33 +1005,33 @@ rect.held.alternate { fill: #bee9e9; }
 <g transform="translate(448, 168)" class="key held keypos-28">
 <rect rx="6" ry="6" x="-26" y="-26" width="52" height="52" class="key held"/>
 </g>
-<g transform="translate(504, 155)" class="key keypos-29">
+<g transform="translate(504, 155)" class="key trans keypos-29">
+<rect rx="6" ry="6" x="-26" y="-26" width="52" height="52" class="key trans"/>
+<text x="0" y="0" class="key trans tap">▽</text>
+</g>
+<g transform="translate(560, 148)" class="key keypos-30">
 <rect rx="6" ry="6" x="-26" y="-26" width="52" height="52" class="key"/>
 <text x="0" y="0" class="key tap">
 <tspan x="0" dy="-0.6em">BT</tspan><tspan x="0" dy="1.2em">CLR</tspan>
 </text>
 </g>
-<g transform="translate(560, 148)" class="key keypos-30">
+<g transform="translate(617, 140)" class="key keypos-31">
 <rect rx="6" ry="6" x="-26" y="-26" width="52" height="52" class="key"/>
 <text x="0" y="0" class="key tap">
 <tspan x="0" dy="-1.2em">BT</tspan><tspan x="0" dy="1.2em">CLR</tspan><tspan x="0" dy="1.2em">ALL</tspan>
 </text>
 </g>
-<g transform="translate(617, 140)" class="key keypos-31">
+<g transform="translate(673, 154)" class="key keypos-32">
 <rect rx="6" ry="6" x="-26" y="-26" width="52" height="52" class="key"/>
 <text x="0" y="0" class="key tap">
 <tspan x="0" dy="-0.6em">BT</tspan><tspan x="0" dy="1.2em">PRV</tspan>
 </text>
 </g>
-<g transform="translate(673, 154)" class="key keypos-32">
+<g transform="translate(729, 175)" class="key keypos-33">
 <rect rx="6" ry="6" x="-26" y="-26" width="52" height="52" class="key"/>
 <text x="0" y="0" class="key tap">
 <tspan x="0" dy="-0.6em">BT</tspan><tspan x="0" dy="1.2em">NXT</tspan>
 </text>
-</g>
-<g transform="translate(729, 175)" class="key trans keypos-33">
-<rect rx="6" ry="6" x="-26" y="-26" width="52" height="52" class="key trans"/>
-<text x="0" y="0" class="key trans tap">▽</text>
 </g>
 <g transform="translate(28, 231)" class="key trans keypos-34">
 <rect rx="6" ry="6" x="-26" y="-26" width="52" height="52" class="key trans"/>

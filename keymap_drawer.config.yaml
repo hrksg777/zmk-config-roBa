@@ -35,6 +35,7 @@ parse_config:
     TAB: ⇥
     LS(TAB): ⇤
     LS(LC(TAB)): ^⇤
+    ESC: ⎋
     # defaults
     EXCLAMATION: "!"
     EXCL: "!"

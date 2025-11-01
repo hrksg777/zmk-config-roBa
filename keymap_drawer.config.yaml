@@ -107,5 +107,5 @@ draw_config:
   svg_extra_style: |
     rect.held.alternate { fill: #bee9e9; }
     @media (prefers-color-scheme: dark) { rect.held.alternate { fill: #6a9b9b; } }
-    svg.keymap { font-family: "Noto Sans Symbols2","Segoe UI Symbol",SFMono-Regular,Consolas,Liberation Mono,Menlo,monospace; }
+    svg.keymap { font-family: ui-sans-serif,-apple-system,system-ui,Segoe UI,Helvetica,Apple Color Emoji,Arial,sans-serif,Segoe UI Emoji,Segoe UI Symbol,SFMono-Regular,Consolas,Liberation Mono,Menlo,monospace; }
   dark_mode: auto

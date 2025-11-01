@@ -137,7 +137,7 @@ path.combo { stroke: #7f7f7f; }
 }
 rect.held.alternate { fill: #bee9e9; }
 @media (prefers-color-scheme: dark) { rect.held.alternate { fill: #6a9b9b; } }
-svg.keymap { font-family: "Noto Sans Symbols2","Segoe UI Symbol"; }
+svg.keymap { font-family: "Noto Sans Symbols2","Segoe UI Symbol",SFMono-Regular,Consolas,Liberation Mono,Menlo,monospace; }
 </style>
 <g transform="translate(30, 0)" class="layer-default">
 <text x="0" y="28" class="label" id="default">default:</text>
